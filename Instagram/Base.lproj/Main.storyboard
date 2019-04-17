@@ -134,7 +134,7 @@
                                 </constraints>
                                 <state key="normal" title="表示名を変更" backgroundImage="btn"/>
                                 <connections>
-                                    <action selector="handleChangeButton:" destination="fYp-nV-WVa" eventType="touchUpInside" id="Xgd-J6-m8G"/>
+                                    <action selector="handleChangeButton:" destination="fYp-nV-WVa" eventType="touchUpInside" id="ceo-IL-4q8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qAe-9f-QPV">
@@ -144,7 +144,7 @@
                                 </constraints>
                                 <state key="normal" title="ログアウト" backgroundImage="btn"/>
                                 <connections>
-                                    <action selector="handleLogoutButton:" destination="fYp-nV-WVa" eventType="touchUpInside" id="VfN-5a-Qa0"/>
+                                    <action selector="handleLogoutButton:" destination="fYp-nV-WVa" eventType="touchUpInside" id="74I-lZ-r5Y"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -160,7 +160,7 @@
                         <viewLayoutGuide key="safeArea" id="1if-FT-l6p"/>
                     </view>
                     <connections>
-                        <outlet property="displayNameTextField" destination="Voz-DQ-aay" id="5fw-fn-IwQ"/>
+                        <outlet property="displayNameTextField" destination="Voz-DQ-aay" id="ieN-fm-i2C"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Juv-cb-qUg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -275,7 +275,7 @@
                                 </constraints>
                                 <state key="normal" title="ログイン" backgroundImage="btn"/>
                                 <connections>
-                                    <action selector="handleLoginButton:" destination="9qK-7b-uvk" eventType="touchUpInside" id="vk7-kj-D0T"/>
+                                    <action selector="handleLoginButton:" destination="kfZ-e1-QFE" eventType="touchUpInside" id="Q0u-DI-nn1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWK-UD-tcF">
@@ -285,7 +285,7 @@
                                 </constraints>
                                 <state key="normal" title="アカウント作成" backgroundImage="btn"/>
                                 <connections>
-                                    <action selector="handleCreateAccountButton:" destination="9qK-7b-uvk" eventType="touchUpInside" id="2DM-dQ-hOt"/>
+                                    <action selector="handleCreateAccountButton:" destination="kfZ-e1-QFE" eventType="touchUpInside" id="ztW-oP-Xcz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -303,12 +303,12 @@
                             <constraint firstItem="YWK-UD-tcF" firstAttribute="top" secondItem="HBR-eY-GWT" secondAttribute="bottom" constant="10" id="z0H-A9-SDg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="82h-9d-lnF"/>
-                        <connections>
-                            <outlet property="displayNameTextField" destination="djq-XV-vuU" id="ube-H0-BO4"/>
-                            <outlet property="mailAddressTextField" destination="GGe-Kl-JMG" id="7aY-Sa-dzd"/>
-                            <outlet property="passwordTextField" destination="OnZ-7Y-bRN" id="0aZ-9k-xcH"/>
-                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="displayNameTextField" destination="djq-XV-vuU" id="O1e-Ss-rhP"/>
+                        <outlet property="mailAddressTextField" destination="GGe-Kl-JMG" id="brV-nY-OwM"/>
+                        <outlet property="passwordTextField" destination="OnZ-7Y-bRN" id="qY3-CD-AlD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tbO-20-h6P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -12,7 +12,6 @@
 		AD7BA7AE225E99CC00DA4742 /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7BA7AD225E99CC00DA4742 /* ImageSelectViewController.swift */; };
 		AD7BA7B2225E9A1800DA4742 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7BA7B1225E9A1800DA4742 /* PostViewController.swift */; };
 		AD7BA7B4225E9A3400DA4742 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7BA7B3225E9A3400DA4742 /* SettingViewController.swift */; };
-		AD7BA7B6225F59C300DA4742 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD7BA7B5225F59C300DA4742 /* GoogleService-Info.plist */; };
 		AD8749142261AC830018C4E0 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8749132261AC830018C4E0 /* Const.swift */; };
 		AD8749162261F7D60018C4E0 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8749152261F7D60018C4E0 /* PostData.swift */; };
 		AD874919226200400018C4E0 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD874917226200400018C4E0 /* PostTableViewCell.swift */; };
@@ -22,6 +21,7 @@
 		AD8C2838225CC9F400E80A1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8C2836225CC9F400E80A1D /* Main.storyboard */; };
 		AD8C283A225CC9F700E80A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8C2839225CC9F700E80A1D /* Assets.xcassets */; };
 		AD8C283D225CC9F700E80A1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8C283B225CC9F700E80A1D /* LaunchScreen.storyboard */; };
+		AD9FCE062263580000FFFC34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD9FCE052263580000FFFC34 /* GoogleService-Info.plist */; };
 		C6FBE06B97FEFEABF721C3E5 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A667279E34CF0B593EA43041 /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,6 @@
 		AD7BA7AD225E99CC00DA4742 /* ImageSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
 		AD7BA7B1225E9A1800DA4742 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		AD7BA7B3225E9A3400DA4742 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
-		AD7BA7B5225F59C300DA4742 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AD8749132261AC830018C4E0 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		AD8749152261F7D60018C4E0 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		AD874917226200400018C4E0 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
@@ -46,6 +45,7 @@
 		AD8C2839225CC9F700E80A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD8C283C225CC9F700E80A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD8C283E225CC9F700E80A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD9FCE052263580000FFFC34 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +99,9 @@
 				AD7BA7A9225E997000DA4742 /* LoginViewController.swift */,
 				AD7BA7AB225E999500DA4742 /* HomeViewController.swift */,
 				AD7BA7AD225E99CC00DA4742 /* ImageSelectViewController.swift */,
-				AD7BA7B5225F59C300DA4742 /* GoogleService-Info.plist */,
 				AD7BA7B1225E9A1800DA4742 /* PostViewController.swift */,
 				AD7BA7B3225E9A3400DA4742 /* SettingViewController.swift */,
+				AD9FCE052263580000FFFC34 /* GoogleService-Info.plist */,
 				AD8749132261AC830018C4E0 /* Const.swift */,
 				AD8749152261F7D60018C4E0 /* PostData.swift */,
 				AD874917226200400018C4E0 /* PostTableViewCell.swift */,
@@ -180,7 +180,7 @@
 			files = (
 				AD8C283D225CC9F700E80A1D /* LaunchScreen.storyboard in Resources */,
 				AD87491A226200400018C4E0 /* PostTableViewCell.xib in Resources */,
-				AD7BA7B6225F59C300DA4742 /* GoogleService-Info.plist in Resources */,
+				AD9FCE062263580000FFFC34 /* GoogleService-Info.plist in Resources */,
 				AD8C283A225CC9F700E80A1D /* Assets.xcassets in Resources */,
 				AD8C2838225CC9F400E80A1D /* Main.storyboard in Resources */,
 			);
